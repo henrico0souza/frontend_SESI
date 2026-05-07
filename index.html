@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSotre SESI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TechStore SESI</h1>
+
+        <section class="formulario">
+             <h3>Dados da venda</h3>
+             <input type="text" id="inputNome" placeholder="Nome do cliente">
+             <input type="number" id="inputIdade" placeholder="Idade do cliente">
+             <input type="number" id="inputValor" placeholder="valor total (R$)">
+             
+             <select name="inputCupom">
+                <option value="false">Não possui cupom</option>
+                <option value="true">Possui cupom (15% de cupom)</option>
+                </select>
+           
+                <buton onclick="executarSistema()">Finalizar Venda</buton>     
+        </section>
+
+    </div>
+</body>
+</html>
