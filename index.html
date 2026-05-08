@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSotre SESI</title>
+    <title>STARBUCKS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>TechStore SESI</h1>
+        <h1>STARBUCKS</h1>
 
         <section class="formulario">
-             <h3>Dados da venda</h3>
+             <h3>Cadastro do cliente</h3>
              <input type="text" id="inputNome" placeholder="Nome do cliente">
              <input type="number" id="inputIdade" placeholder="Idade do cliente">
              <input type="number" id="inputValor" placeholder="valor total (R$)">
@@ -24,6 +24,17 @@
                 <buton onclick="executarSistema()">Finalizar Venda</buton>     
         </section>
 
+        <hr>
+
+        <section id="feedbak">
+            <p id="mensagem-autorizacao">Preencha os dados acima.</p>
+            <ul id="lista-stoque"></ul>
+            <div id="relatorio-final" class="card" style="display: nome;">
+            </div>
+        </section>
+
     </div>
+
+    <script src="sript.js"></script>
 </body>
 </html>

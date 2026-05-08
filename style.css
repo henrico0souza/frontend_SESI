@@ -1,8 +1,51 @@
 body {
-    background-color: #0F172A;
-    color: #22D3EE;
+    background-color: #0f651c;
+    color: #ffffff;
     font-family: 'system-ui' , sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.container {
+    width: 400px;
+    background-color:#32841f;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    box-shadow: 0 10 px 30 px rgba(0,0,0,0.5);
+}
+
+h1{
+    color: #ffffff;
+    text-aling: center;
+}
+
+h3{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: #252525;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #00ff88;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #00ff88;
+    border: nome;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+buton:hover {
+    background-color: #00ff88;
 }
